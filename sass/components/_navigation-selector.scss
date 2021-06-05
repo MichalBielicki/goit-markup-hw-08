@@ -1,0 +1,10 @@
+.selector::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  top: 45px;
+  display: block;
+  background: $main-color;
+  border-radius: 2px;
+}

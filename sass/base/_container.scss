@@ -1,0 +1,131 @@
+.container {
+  padding: 60px 15px;
+  align-items: center;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .container {
+    align-items: center;
+    .header & {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #ffffff;
+      padding: 16px 15px;
+    }
+    .hero & {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 118px 58px;
+    }
+    .our-job & {
+      display: flex;
+      padding-bottom: 0;
+      margin-bottom: 60px;
+    }
+    .footer & {
+      padding: 60px 0;
+      display: flex;
+      flex-direction: column;
+    }
+    .portfolio & {
+      padding-top: 60px;
+      padding-bottom: 25px;
+    }
+    .all & {
+      display: flex;
+      padding-top: 0;
+      padding-bottom: 64px;
+      justify-content: center;
+    }
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .container {
+    padding: 60px 15px;
+    align-items: center;
+    .header & {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #ffffff;
+      padding: 19px 15px;
+    }
+    .hero & {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 118px 201px;
+    }
+    .our-job & {
+      display: flex;
+      flex-direction: row;
+      justify-self: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding-bottom: 45px;
+    }
+    .footer & {
+      padding: 60px 80px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    .portfolio & {
+      padding-top: 60px;
+      padding-bottom: 30px;
+    }
+    .all & {
+      display: flex;
+      padding-top: 0;
+      padding-bottom: 64px;
+      justify-content: center;
+    }
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+    padding: 94px 15px;
+    align-items: center;
+    margin: 0 auto;
+
+    .header & {
+      display: flex;
+      align-items: center;
+      background-color: #ffffff;
+      padding: 24px 0;
+    }
+    .hero & {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 200px 350px;
+    }
+    .our-job & {
+      display: flex;
+      flex-direction: row;
+      justify-self: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding-bottom: 45px;
+    }
+    .our-team & {
+      display: flex;
+      flex-direction: column;
+    }
+    .footer & {
+      padding: 60px 0;
+      display: flex;
+    }
+    .portfolio & {
+      padding-top: 100px;
+      padding-bottom: 56px;
+    }
+    .all & {
+      display: flex;
+      padding-top: 0;
+      padding-bottom: 64px;
+    }
+  }
+}
