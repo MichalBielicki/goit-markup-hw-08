@@ -4,7 +4,7 @@
   line-height: 2;
   letter-spacing: 0.06em;
   color: $secondary-font;
-  margin: 20px 24px 4px 24px;
+  margin: 20px 20px 4px 20px;
 }
 .all__text {
   font-size: 16px;
@@ -60,9 +60,6 @@
         0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
       cursor: pointer;
     }
-    &:not(:nth-child(3n)) {
-      margin-right: 30px;
-    }
     &:hover .all__description {
       transform: translate(0, 0);
       transition-duration: 500ms;
@@ -73,6 +70,7 @@
   .all__list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
   .all__item {
     box-sizing: border-box;
