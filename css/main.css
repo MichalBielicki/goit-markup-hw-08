@@ -398,6 +398,19 @@ img {
   border: none;
 }
 
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    width: 80%;
+    height: 609px;
+    padding: 40px;
+  }
+}
+
 .selector::after {
   content: "";
   position: absolute;
