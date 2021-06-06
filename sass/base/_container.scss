@@ -65,6 +65,9 @@
       flex-wrap: wrap;
       padding-bottom: 45px;
     }
+    .our-team & {
+      padding: 60px 10px;
+    }
     .footer & {
       padding: 60px 80px;
       display: flex;
@@ -77,8 +80,7 @@
     }
     .all & {
       display: flex;
-      padding-top: 0;
-      padding-bottom: 64px;
+      padding: 0 9px 64px 9px;
       justify-content: center;
     }
   }
@@ -119,13 +121,13 @@
       display: flex;
     }
     .portfolio & {
-      padding-top: 100px;
-      padding-bottom: 56px;
+      padding-top: 94px;
+      padding-bottom: 0px;
     }
     .all & {
       display: flex;
       padding-top: 0;
-      padding-bottom: 64px;
+      padding: 64px 10px;
     }
   }
 }

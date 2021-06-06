@@ -114,6 +114,9 @@ img {
     flex-wrap: wrap;
     padding-bottom: 45px;
   }
+  .our-team .container {
+    padding: 60px 10px;
+  }
   .footer .container {
     padding: 60px 80px;
     display: flex;
@@ -126,8 +129,7 @@ img {
   }
   .all .container {
     display: flex;
-    padding-top: 0;
-    padding-bottom: 64px;
+    padding: 0 9px 64px 9px;
     justify-content: center;
   }
 }
@@ -168,13 +170,13 @@ img {
     display: flex;
   }
   .portfolio .container {
-    padding-top: 100px;
-    padding-bottom: 56px;
+    padding-top: 94px;
+    padding-bottom: 0px;
   }
   .all .container {
     display: flex;
     padding-top: 0;
-    padding-bottom: 64px;
+    padding: 64px 10px;
   }
 }
 
@@ -964,14 +966,14 @@ img {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   }
   .our-team__item:nth-child(1) {
-    margin-right: 30px;
+    margin-right: 24px;
     margin-bottom: 30px;
   }
   .our-team__item:nth-child(2) {
     margin-bottom: 30px;
   }
   .our-team__item:nth-child(3) {
-    margin-right: 30px;
+    margin-right: 24px;
   }
 }
 
@@ -1530,7 +1532,7 @@ img {
   line-height: 1.875;
   letter-spacing: 0.03em;
   color: #757575;
-  margin: 0 20px 20px 20px;
+  margin: 0 10px 20px 10px;
 }
 
 .all__tittle-box {
@@ -1605,7 +1607,7 @@ img {
     cursor: pointer;
   }
   .all__item:not(:nth-child(2n + 2)) {
-    margin-right: 30px;
+    margin-right: 20px;
   }
   .all__item:hover .all__description {
     transform: translate(0, 0);
@@ -1633,7 +1635,7 @@ img {
     cursor: pointer;
   }
   .all__item:not(:nth-child(3n)) {
-    margin-right: 30px;
+    margin-right: 24px;
   }
   .all__item:hover .all__description {
     transform: translate(0, 0);
